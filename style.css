@@ -1,0 +1,92 @@
+body {
+    background-color: #DCDCDC;
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+}
+
+
+.navlist ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;  
+    
+}
+
+.navlist li a:hover {
+    transition: .3s;
+    color: rgb(66, 66, 66);
+}
+
+.navlist a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.main h1{
+    font-size: 20px;
+    padding-top: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+    font-size: 17px;
+}
+
+.imagemmain {
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.imagemmain img {
+    width: 100%; 
+    height: auto; 
+}
+
+footer {
+    width: 50%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+footer a {
+    display: inline-block; 
+    text-decoration: none;
+    color: inherit; 
+    font-size: 18px;
+    display: flex;
+}
+.contato-insta{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+h3 {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+    font-size: 17px;
+}
+
+
+.logo {
+    padding-top: 100px;
+    padding-left: 550px;
+    
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+
